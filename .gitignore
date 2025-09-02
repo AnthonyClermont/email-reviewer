@@ -1,0 +1,27 @@
+# --- Python / FastAPI ---
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.python-version
+backend/venv/
+backend/.env
+
+# --- Node / React ---
+frontend/node_modules/
+frontend/.env
+frontend/dist/
+frontend/.vite/
+
+# --- General ---
+*.log
+.DS_Store
+.env
+*.sqlite3
+__pycache__/
+*.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.iml
